@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	font-family: Century Gothic ;
+
+}
+
+.row {
+	padding: 20px;
+}
+
+aside {
+	padding: 3	0px;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../H1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	font-weight: bold;
+ }
+
+ul{
+	padding-bottom: 10%;
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+ }
+
+ul {
+	margin: 20px; 
+ }
+
+ul li{
+	display: inline-block; 
+ }
+
+ul li a {
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #fff;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: black;
+}
+
+.logo p{
+	float: left;
+	font-size:50px;
+	color: #fff;
+}
+
+.main{
+	max-width: 1200px
+	margin:auto;
+
+}
+
+.title{
+	position: absolute;
+	top: 73%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.title h1 {
+	font-size: 38px;
+	color: #fff;
+
+}
+
+.button {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+	text-decoration: none;
+}
+
+.btn{
+	border: 1px solid #fff;
+	transition: 0.5s ease;
+	text-decoration: none;
+	padding: 8px 25px;
+	color: #fff
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: black;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	font-family: arial;
+	background-color: gold;
+	text-align: center;
+
+}
+
+.hf {
+	padding: 10px;
+	
+}
+
+@media screen and (max-width: 600px) {
+.column {
+	width: 100%;
+	}
